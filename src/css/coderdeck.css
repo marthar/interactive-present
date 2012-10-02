@@ -45,7 +45,7 @@
       margin-bottom: .3em;
       padding-left: 1.1em;
       list-style-type: square;
-      color: #2ca58f; }
+      color: #990000; }
     .deck-container .slide-list li {
       padding-left: .5em;
       text-align: left; }
@@ -137,7 +137,7 @@
     float: left;
     padding-right: .3em; }
   .deck-container .slide-accent {
-    background: #2ca58f;
+    background: #990000;
     color: white; }
     .deck-container .slide-accent h1 {
       font-size: 4em;
@@ -152,7 +152,7 @@
       .deck-container .slide-accent h1 a {
         color: white; }
         .deck-container .slide-accent h1 a:hover {
-          color: #cccccc; }
+          color: #ffffcc; }
     .deck-container .slide-accent h2 {
       color: white;
       transform: none;
@@ -163,14 +163,18 @@
       position: static;
       padding-top: 3em; }
     .deck-container .slide-accent h3 {
-      color: white;
+      color: #ffffcc;
       transform: none;
       -webkit-transform: none;
       -moz-transform: none;
       -ms-transform: none;
       -o-tranform: none;
       position: static;
-      padding-top: 3em; }
+      padding-top: .5em; }
+      .deck-container .slide-accent h3 a {
+        color: white; }
+        .deck-container .slide-accent h3 a:hover {
+          color: #ffffcc; }
     .deck-container .slide-accent p {
       font-size: 1.5em;
       color: white;
@@ -203,7 +207,7 @@
       text-align: left;
       list-style-type: decimal;
       font-size: 1.1em;
-      color: #2ca58f;
+      color: #990000;
       margin-left: 1em; }
       .deck-container .slide-homework ol ul {
         font-size: 1.0em;
@@ -214,7 +218,7 @@
       background-color: inherit;
       list-style-type: square;
       font-size: 1.1em;
-      color: #2ca58f;
+      color: #990000;
       margin-left: 1em; }
       .deck-container .slide-homework ul ul {
         list-style-type: none;
@@ -234,9 +238,9 @@
   .deck-container .large {
     color: red; }
   .deck-container .callout {
-    color: #2ca58f; }
+    color: #990000; }
   .deck-container em {
-    color: #2ca58f;
+    color: #990000;
     font-style: normal; }
   .deck-container h1 {
     font-family: 'Oswald', sans-serif;
@@ -245,7 +249,7 @@
     letter-spacing: -0.04em;
     line-height: 1em;
     text-transform: uppercase;
-    color: #2ca58f;
+    color: #990000;
     font-size: 4em;
     letter-spacing: -0.02em;
     word-spacing: .1em; }
@@ -255,7 +259,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #2ca58f;
+    color: #990000;
     border: none;
     letter-spacing: -0.02em;
     word-spacing: .13em;
@@ -269,7 +273,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: #2ca58f;
+    color: #990000;
     border: none;
     letter-spacing: -0.02em;
     word-spacing: .1em;
@@ -289,13 +293,13 @@
     margin-bottom: .5em; }
     .deck-container .example em {
       display: inline-block;
-      background: #2ca58f;
+      background: #990000;
       color: #fff;
       padding: .1em .15em 0 .15em;
       font-style: normal;
       margin: .5em 0; }
     .deck-container .example b {
-      color: #2ca58f; }
+      color: #990000; }
   .deck-container code {
     color: #888; }
   .deck-container blockquote {
@@ -303,7 +307,7 @@
     font-style: italic;
     padding: 1em 2em;
     color: #000;
-    border-left: 5px solid #2ca58f; }
+    border-left: 5px solid #990000; }
     .deck-container blockquote p {
       margin: 0; }
     .deck-container blockquote cite {
@@ -312,26 +316,26 @@
       font-weight: bold;
       color: #888; }
   .deck-container ::-moz-selection {
-    background: #2ca58f;
+    background: #990000;
     color: #fff; }
   .deck-container ::selection {
-    background: #2ca58f;
+    background: #990000;
     color: #fff; }
   .deck-container a, .deck-container a:hover, .deck-container a:focus, .deck-container a:active, .deck-container a:visited {
-    color: #777777;
+    color: #ccb249;
     text-decoration: none; }
   .deck-container a:hover, .deck-container a:focus {
-    color: #2ca58f; }
+    color: #990000; }
   .deck-container strong {
     font-weight: normal;
-    color: #2ca58f; }
+    color: #990000; }
   .deck-container .deck-prev-link, .deck-container .deck-next-link {
-    background: #2ca58f;
+    background: #990000;
     font-family: serif; }
     .deck-container .deck-prev-link, .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-prev-link:active, .deck-container .deck-prev-link:visited, .deck-container .deck-next-link, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus, .deck-container .deck-next-link:active, .deck-container .deck-next-link:visited {
       color: #fff; }
     .deck-container .deck-prev-link:hover, .deck-container .deck-prev-link:focus, .deck-container .deck-next-link:hover, .deck-container .deck-next-link:focus {
-      background: #2ca58f;
+      background: #990000;
       text-decoration: none; }
   .deck-container .deck-status {
     font-size: 0.6666em; }

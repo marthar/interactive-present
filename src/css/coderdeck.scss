@@ -1,6 +1,6 @@
 $main-color:#444;
-$callout-color:rgba(44, 165, 143, 1.00);
-$link-color:#777;
+$callout-color:#990000;
+$link-color:#CCB249;
 $gray-color:#CCC;
 
 @mixin sans-font {
@@ -111,11 +111,15 @@ $gray-color:#CCC;
 		color:white;
 		h1 { font-size:4em;  color:white; @include no-transform; padding-top:3em;
 			a { color:white; 
-				&:hover {color:$gray-color;}	
+				&:hover {color:#ffffcc;}	
 			}
 		}
 		h2 { color:white; @include no-transform; padding-top:3em;}
-		h3 { color:white; @include no-transform; padding-top:3em;}
+		h3 { color:#ffffcc; @include no-transform; padding-top:.5em;
+			a { color:white; 
+				&:hover {color:#ffffcc;}	
+			}
+		}	
 		p { font-size:1.5em; color:white; text-align:center; text-transform:none; padding-top:0;}
 			
 	}
